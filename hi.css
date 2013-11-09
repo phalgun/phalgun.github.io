@@ -1,14 +1,15 @@
 body {
 	font-size: 100%;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #AAA;
-	background-color: #000;
+	color: #f1f1f1;
+	background-color: white;
 	font-size: 2.5em;
 	padding: 50px;
 }
 
-a { color: #FFFF00; text-decoration: none; }
+a { color: #993C31; text-decoration: none; }
+/*a { color: #FFFF00; text-decoration: none; }*/
 
-.title { color: #FFF; font-size: 150%; }
+.title { color: black; font-size: 150%; }
 
 
