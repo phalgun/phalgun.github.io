@@ -66,9 +66,9 @@
         this.element.removeClass('complete');
         return this.element.trigger('kudo:removed');
         } else {
- +        if (event.type === "click") {
- +          return this.complete();
- +      }
+         if (event.type === "click") {
+           return this.complete();
+       }
       }
     };
 
