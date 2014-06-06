@@ -55,7 +55,7 @@
       this.end();
       this.incrementCount();
       this.element.addClass('complete');
-      $('.txt').html("Hang on!");
+      $('.txt').html("Thanks, redirecting..!");
       return this.element.trigger('kudo:added');
     };
 
